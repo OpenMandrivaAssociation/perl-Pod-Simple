@@ -1,7 +1,7 @@
 %define	module	Pod-Simple
 %define	name	perl-%{module}
 %define version 3.05
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	Perl module to parse Pod
 Name:		%{name}
