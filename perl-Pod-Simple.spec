@@ -11,7 +11,8 @@ License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}/
 Source:     http://www.cpan.org/modules/by-module/Class/%{module}-%{version}.tar.gz
-BuildRequires:	perl-Pod-Escapes
+BuildRequires:	perl(Pod::Escapes)
+BuildRequires:	perl(HTML::Entities)
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
