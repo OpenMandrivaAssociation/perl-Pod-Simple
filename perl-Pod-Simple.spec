@@ -1,5 +1,5 @@
 %define	upstream_name	 Pod-Simple
-%define upstream_version 3.09
+%define upstream_version 3.10
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/Pod/%{upstream_name}-%{upstrea
 
 BuildRequires:	perl(Pod::Escapes)
 BuildRequires:	perl(HTML::Entities)
+
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
@@ -42,4 +43,3 @@ rm -rf %{buildroot}
 %{perl_vendorlib}/Pod
 %{perl_vendorlib}/*.pod
 %{_mandir}/man3/*
-
