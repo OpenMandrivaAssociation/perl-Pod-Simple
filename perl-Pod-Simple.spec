@@ -1,9 +1,9 @@
 %define	upstream_name	 Pod-Simple
-%define upstream_version 3.14
+%define upstream_version 3.15
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	%mkrel 2
+Release:	%mkrel 1
 
 Summary:	Perl module to parse Pod
 License:	GPL+ or Artistic
@@ -41,5 +41,4 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc ChangeLog README
 %{perl_vendorlib}/Pod
-%{perl_vendorlib}/*.pod
 %{_mandir}/man3/*
