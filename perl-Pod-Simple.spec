@@ -1,5 +1,5 @@
 %define	upstream_name	 Pod-Simple
-%define upstream_version 3.15
+%define upstream_version 3.16
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
