@@ -1,14 +1,14 @@
 %define	modname	Pod-Simple
-%define modver	3.18
+%define modver 31337.0.02
 
 Summary:	Perl module to parse Pod
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	9
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/Pod/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Simple-31337-0.02.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Pod::Escapes)
 BuildRequires:	perl(HTML::Entities)
@@ -34,4 +34,5 @@ Pod::Simple is a module suite for parsing Pod.
 %doc ChangeLog README
 %{perl_vendorlib}/Pod
 %{_mandir}/man3/*
+
 
